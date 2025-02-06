@@ -7,7 +7,19 @@
     <link rel="stylesheet" href="dist/css/main.css">
 </head>
 <body>
-
+<!--section header-->
+<header class="header">
+  <div class="header__container">
+    <h1 class="header__logo">
+      <img src="src/images/disneyplus.svg" alt="">
+    </h1>
+    <ul class="header__links">
+      <li class="header__links__link"><a class="button button--secondary" href="">Assine agora</a></li>
+      <li class="header__links__link"><a class="button button--dark" href="">Entrar</a></li>
+    </ul>
+  </div>
+</header>
+<!--section hero-->
     <section class="hero"  >
       <section class="hero__content">
               <h1 class="hero__content__branding">
@@ -25,13 +37,13 @@
         <ul class="hero__content__combos">
             <li class="hero__content__combos__combo">
               <img src="src/images/logos/disney_star_plus_sm.png" alt="Disney +">
-              <button class="text">Assine Agora</button>
+              <button class="button">Assine Agora</button>
               <span class="text">R$ 45,90/mês*</span>
             </li>
             <li class="hero__content__combos__combo">
               <img src="src/images/logos/disney_star_plus_sm.png" alt="Disney + star +">
-              <button class="">Assine Agora</button>
-              <span>R$ 55,90/mês*</span>
+              <button class="button">Assine Agora</button>
+              <span class="text">R$ 55,90/mês*</span>
             </li>
         </ul>  
        <p class="text--small">
@@ -39,5 +51,263 @@
        </p>
       </section>
     </section>
+    <!--section shows-->
+    <section class="shows">
+      <nav class="shows__tabs">
+       <button data-tab-button="em_breve" class="shows__tabs__button shows__tabs__button--is-active">
+         Em breve
+       </button>
+       <button data-tab-button="mais_populares" class="shows__tabs__button">
+        Mais populares
+       </button>
+       <button data-tab-button="star_plus" class="shows__tabs__button">
+        Mais no star+
+       </button>
+      </nav>
+      <!--data-tab-id="em_breve"-->
+     <ul data-tab-id="em_breve" class="shows__list ">
+       <li class="shows__list__item">
+         <img src="./src/images/em_breve/spidey.jpg" alt="">
+       </li>
+       <li class="shows__list__item">
+         <img src="./src/images/em_breve/spidey.jpg" alt="">
+       </li>
+       <li class="shows__list__item">
+         <img src="./src/images/em_breve/spidey.jpg" alt="">
+       </li>
+       <li class="shows__list__item">
+         <img src="./src/images/em_breve/spidey.jpg" alt="">
+       </li>
+       <li class="shows__list__item">
+         <img src="./src/images/em_breve/spidey.jpg" alt="">
+       </li>
+       <li class="shows__list__item">
+         <img src="./src/images/em_breve/spidey.jpg" alt="">
+       </li>
+     </ul>
+     <!-- data-tab-id="mais_populares"-->
+     <ul data-tab-id="mais_populares" class="shows__list shows__list--is-active">
+      <li class="shows__list__item">
+        <img src="./src/images/em_breve/the_santa_clauses.jpg" alt="">
+      </li>
+      <li class="shows__list__item">
+        <img src="./src/images/em_breve/the_santa_clauses.jpg" alt="">
+      </li>
+      <li class="shows__list__item">
+        <img src="./src/images/em_breve/the_santa_clauses.jpg" alt="">
+      </li>
+      <li class="shows__list__item">
+        <img src="./src/images/em_breve/the_santa_clauses.jpg" alt="">
+      </li>
+      <li class="shows__list__item">
+        <img src="./src/images/em_breve/the_santa_clauses.jpg" alt="">
+      </li>
+      <li class="shows__list__item">
+        <img src="./src/images/em_breve/the_santa_clauses.jpg" alt="">
+      </li>
+    </ul>
+    <!-- data-tab-id="star_plus"-->
+    <ul data-tab-id="star_plus" class="shows__list ">
+      <li class="shows__list__item">
+        <img src="./src/images/em_breve/sem_limites.jpg" alt="">
+      </li>
+      <li class="shows__list__item">
+        <img src="./src/images/em_breve/sem_limites.jpg" alt="">
+      </li>
+      <li class="shows__list__item">
+        <img src="./src/images/em_breve/sem_limites.jpg" alt="">
+      </li>
+      <li class="shows__list__item">
+        <img src="./src/images/em_breve/sem_limites.jpg" alt="">
+      </li>
+      <li class="shows__list__item">
+        <img src="./src/images/em_breve/sem_limites.jpg" alt="">
+      </li>
+      <li class="shows__list__item">
+        <img src="./src/images/em_breve/sem_limites.jpg" alt="">
+      </li>
+    </ul>
+   </section>
+   <!--section planos-->
+   <section class="plans">
+    <h2 class="title--big">Escolha o seu plano</h2>
+    <ul class="plans__list">
+      <li class="plans__list__item">
+       <img src="src/images/logos/disney_star_plus_starzplay_underline.png" alt="">
+       <strong class="title--small">R$ 27,90/mês</strong>
+       <p class="text">
+        No Disney+ você encontra as últimas novidades em cinema, originais e clássicos.
+       </p>
+        <button class="button" >Assine agora</button>
+      </li>
+      <li class="plans__list__item">
+        <img src="src/images/logos/disney_star_plus_starzplay_underline.png" alt="">
+        <strong class="title--small">R$ 27,90/mês</strong>
+       <p class="text">
+        No Disney+ você encontra as últimas novidades em cinema, originais e clássicos.
+       </p>
+       <button class="button " >Assine agora</button>
+      </li>
+      <li class="plans__list__item">
+        <img src="src/images/logos/disney_star_plus_starzplay_underline.png" alt="">
+        <strong class="title--small">R$ 27,90/mês</strong>
+       <p class="text">
+        No Disney+ você encontra as últimas novidades em cinema, originais e clássicos.
+       </p>
+       <button class="button">Assine agora</button>
+      </li>
+    </ul>
+       <p class="text--small">*O preço pode variar de acordo com a plataforma</p>
+   </section>
+
+   <!--Assista do seu jeito-->
+   <section class="image-text-section">
+      <img src="src/images/tv_pc_tablet_celular.png" alt="Assita onde quiser">
+      <div class="image-text-section__text_container">
+        <h2 class="title">
+          Assista do seu Jeito
+        </h2>
+        <p class="text--big">
+          Estreias de filmes, clássicos, sagas, comédias animadas e produções originais do Star, além de esportes e programação ao vivo com a ESPN.
+        </p>
+      </div>
+   </section>
+
+      <!--Assista assista em qualquer lugar-->
+      <section class="image-text-section image-text-section--image-full-width">
+        <picture>
+          <source media="(max-width: 768px)" srcset="./src/images/fundo_rei_leao_celular.png" />
+          <img src="src/images/fundo_rei_leao.png" alt="Assita onde quiser">
+        </picture>
+
+        <div class="image-text-section--image-full-width__text_container">
+          <h2 class="title">
+            Assista do seu Jeito
+          </h2>
+          <p class="text--big">
+            Estreias de filmes, clássicos, sagas, comédias animadas e produções originais do Star, além de esportes e programação ao vivo com a ESPN.
+          </p>
+        </div>
+     </section>
+     <!--Assista dispositivos disponíveis-->
+     <section class="available-devices">
+       <h2 class="title">Dispositivos disponíveis</h2>
+       <ul class="available-devices__list">
+        <li class="available-devices__list__item">
+          <img src="./src/images/dispositivos/computador.png" alt="">
+          <h4 class="title--small">Computador</h4>
+          <ul>
+            <li class="text--small">Chrome OS</li>
+            <li class="text--small">Mac OS</li>
+            <li class="text--small">PC Windows</li>
+          </ul>
+        </li>
+        <li class="available-devices__list__item">
+          <img src="./src/images/dispositivos/celular.png" alt="">
+          <h4 class="title--small">Smartphone</h4>
+          <ul>
+            <li class="text--small">Asus</li>
+            <li class="text--small">Iphone</li>
+            <li class="text--small">Android</li>
+          </ul>
+        </li>
+        <li class="available-devices__list__item">
+          <img src="./src/images/dispositivos/tv.png" alt="">
+          <h4 class="title--small">Smart TV</h4>
+          <ul>
+            <li class="text--small">Chrome Cast</li>
+            <li class="text--small">Sky</li>
+            <li class="text--small">PC Windows</li>
+          </ul>
+        </li>
+        <li class="available-devices__list__item">
+          <img src="./src/images/dispositivos/videogames.png" alt="">
+          <h4 class="title--small">Vídeo Games</h4>
+          <ul>
+            <li class="text--small">X Box</li>
+            <li class="text--small">Playstation</li>
+            <li class="text--small">Nintendo Wii</li>
+          </ul>
+        </li>
+       </ul>
+     </section>
+     <!-- FAQ -->
+      <section class="faq">
+        <h2 class="title">Perguntas frequentes</h2>
+        <ul class="faq__questions">
+          <li class="faq__questions__item">
+            <div class="faq__questions__item__question text--big" data-faq-question >
+              Pergunta?
+            </div>
+            <div class="faq__questions__item__answer text--small" >
+              <ul class="faq_questions_item_answer__list">
+                <li class="faq_questions_item_answer__list_item">Resposta x</li>
+                <li class="faq_questions_item_answer__list_item">Resposta x</li>
+                <li class="faq_questions_item_answer__list_item">Resposta x</li>
+              </ul>
+            </div>
+
+          </li>
+          <li class="faq__questions__item">
+            <div class="faq__questions__item__question text--big" data-faq-question >
+              Pergunta?
+            </div>
+            <div class="faq__questions__item__answer text--small" >
+              <ul class="faq_questions_item_answer__list">
+                <li class="faq_questions_item_answer__list_item">Resposta x</li>
+                <li class="faq_questions_item_answer__list_item">Resposta x</li>
+                <li class="faq_questions_item_answer__list_item">Resposta x</li>
+              </ul>
+            </div>
+
+          </li>
+          <li class="faq__questions__item">
+            <div class="faq__questions__item__question text--big" data-faq-question >
+              Pergunta?
+            </div>
+            <div class="faq__questions__item__answer text--small" >
+              <ul class="faq_questions_item_answer__list">
+                <li class="faq_questions_item_answer__list_item">Resposta x</li>
+                <li class="faq_questions_item_answer__list_item">Resposta x</li>
+                <li class="faq_questions_item_answer__list_item">Resposta x</li>
+              </ul>
+            </div>
+
+          </li>
+
+        </ul>
+
+      </section>
+     <!-- footer -->
+      <section class="footer">
+        <div class="footer__container">
+          <img class="footer__logo" src="src/images/disneyplus.svg" alt="Disney+">
+          <ul class="footer__links">
+            <li>
+            <div class="language-selector">
+              <img class="footer__links_link" src="src/images/logos/globe.svg" alt="">
+              <select name="" id="">
+                <option>English</option>
+                <option selected >Portuguese</option>
+                <option>Espanish</option>
+                <option>Japanese</option>
+              </select>
+            </div>
+            </li>
+            <li class="footer__links__link text--small"><a href="">Termos e condições</a></li>
+            <li class="footer__links__link text--small"><a href="">Termos e condições</a></li>
+            <li class="footer__links__link text--small"><a href="">Termos e condições</a></li>
+            <li class="footer__links__link text--small"><a href="">Termos e condições</a></li>
+            <li class="footer__links__link text--small"><a href="">Termos e condições</a></li>
+            <li class="footer__links__link text--small"><a href="">Sobre o Disney+</a></li>
+          </ul>
+          <p class="text--small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit accusamus unde nulla odio optio id voluptatem quia laudantium fuga nam sunt recusandae consequuntur, nihil necessitatibus, ipsum autem sequi magni. Rerum.</p>
+          <p class="text--small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat aut, eum quam nesciunt sit ipsam culpa! Quibusdam, tempore delectus. Voluptatem delectus rerum sit facilis vitae placeat animi dignissimos, quia facere? 2025 @copy</p>
+        </div>
+
+      </section>
+
+     <!-- header -->
+   <script src="./src/scripts/main.js"></script>
 </body>
 </html>
